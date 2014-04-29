@@ -1,0 +1,100 @@
+.image-container {
+	float: left;
+	width: 540px;
+}
+
+	.image-container img{
+		margin-bottom: 30px;
+	}
+
+.content-container {
+	float: right;
+	width: 360px;
+	font: 14px/22px 'Myriad Pro', sans-serif;
+}
+
+	.content-container .regular-text {
+		margin-top: 25px;
+	}
+
+.whole-page-content {
+	margin-bottom: 50px;
+
+}
+
+.data-value {
+	color: #f03c3c;
+}
+
+.data-box {
+	float: left;
+	width: 110px;
+}
+
+	.data-value span:first-of-type:after {
+		content: "\7c";
+		margin-left: 9px;
+	    margin-right: 5px;
+	    position: relative;
+	    top: -1px;
+	}
+
+	.data-box:nth-child(2){
+		margin-right:26px;
+	}
+
+
+.decorated-link {
+	font-size: 16px;
+	font-weight: bold;
+	color: #505050;
+	text-decoration: none;
+	margin-top: 30px;
+	display: block;
+}
+
+.decorated-link:visited {
+	color: #505050;
+}
+
+.decorated-link:hover {
+	color: #f14949;
+}
+
+.double-arrow:before {
+ 	content: "\00BB";
+ 	font-size: 26px;
+    font-weight: bold;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+ }
+
+ .similar-post-item {
+ 	float: left;
+ 	width: 220px;
+ 	margin-left: 20px;
+ }
+
+ .similar-post-item:first-of-type {
+ 	margin-left: 0;
+ }
+
+ .similar-post-item div {
+ 	border: 1px solid #dbdbdb;
+ 	padding: 15px;
+ }
+
+ .similar-post-item a, 
+ .similar-post-item a:hover, 
+ .similar-post-item a:visited {
+	text-decoration: none;
+	color: #2e2e2e;
+	font-size: 18px;
+	font-weight: bold;
+ };
+
+ .similar-post-item .bottom-info {
+ 	font-size: 13px;
+ 	color: #a9a9a9;
+ }
